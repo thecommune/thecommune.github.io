@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+:root {
+  --yeliv: #fc0;
+  --purliv: #d30e98;
+  --hamsickred: #d22630;
+}
+
+/* Mixture of Effects
+*************************/
+body {
+  background-color: #aaa;
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  color: #fff;
+}
+
+/* Tramline System List
+*************************/
+.tls ul {
+  list-style-type: none;
+}
+span {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #fff;
+}
+.tls-red {
+  background-color: #b40026;
+  border: 5px solid #8e0c2e;
+  border-radius: 50%;
+}
+.tls-green {
+  background-color: #5eab37;
+  border: 5px solid #4a8f34;
+  border-radius: 50%;
+}
+.tls-yellow {
+  background-color: #ffb605;
+  border: 5px solid #eba40a;
+  border-radius: 50%;
+}
+.tls-torquoise {
+  background-color: #03a7c3;
+  border: 5px solid #1591b5;
+  border-radius: 50%;
+}
+.tls-navyblue {
+  background-color: #0162a9;
+  border: 5px solid #0f4873;
+  border-radius: 50%;
+}
+div[class^="mtl-"] {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+div[class^="mtl-"] p {
+  color: #fff;
+  position: absolute;
+  margin-left: 4em;
+  margin-top: -0.01em;
+  text-align: center;
+  font-size: 1.5em;
+}
+.mtl-yl p {
+  margin-left: 4.5em !important;
+}
+.mtl-gl p {
+  margin-left: 4.4em !important;
+}
+
+.mtl-tl p {
+  margin-left: 5em !important;
+}
+
+.sidebar {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 16em;
+  background-color: #222;
+}
+
+.dot {
+  padding: 1em 1.4em;
+  border-radius: 50%;
+  max-width: 0.5em;
+  margin-bottom: 1em;
+}
+
+/* Station System
+**************************/
+.stl {
+  position: absolute;
+  margin-left: 16.2em;
+  top: 0;
+  margin-top: -5em;
+}
+div[class^="stl-"] {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  height: 75px;
+}
+li {
+  color: #111;
+  list-style: none;
+  font-weight: bold;
+  flex: 40px 1 0;
+
+  transform: rotate(-45deg);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li::before,
+li::after {
+  content: "";
+  transform: rotate(45deg);
+  position: absolute;
+}
+li::before {
+  top: 72px;
+  width: 100%;
+  height: 3px;
+  margin-left: -3.2em;
+  background-color: #fff;
+}
+li::after {
+  top: 60px;
+  width: 10px;
+  height: 10px;
+  margin-left: -3.5em;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+.stl-rl li::before {
+  background-color: #b40026;
+}
+.stl-rl li::after {
+  border: 3px solid #8e0c2e;
+  border-radius: 50%;
+}
+.stl-gl li::before {
+  background-color: #5eab37;
+}
+.stl-gl li::after {
+  border: 3px solid #4a8f34;
+  border-radius: 50%;
+}
+.stl-yl li::before {
+  background-color: #ffb605;
+}
+.stl-yl li::after {
+  border: 3px solid #eba40a;
+  border-radius: 50%;
+}
+.stl-tl li::before {
+  background-color: #03a7c3;
+}
+.stl-tl li::after {
+  border: 3px solid #1591b5;
+  border-radius: 50%;
+}
+.stl-nl li::before {
+  background-color: #0162a9;
+}
+.stl-nl li::after {
+  border: 3px solid #0f4873;
+  border-radius: 50%;
+}
+.mtl-goback a {
+  font-size: 1.5em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mtl-goback a:hover {
+  font-size: 1.5em;
+  color: #aaa;
+  text-decoration: underline;
+}

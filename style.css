@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+:root {
+  --yeliv: #fc0;
+  --purliv: #d30e98;
+  --hamsickred: #d22630;
+}
+
+body {
+  background-color: var(--purliv);
+  color: var(--yeliv);
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Navigation
+******************************/
+
+header {
+  background-color: var(--yeliv);
+  left: 0;
+  right: 0;
+  top: 0;
+  color: var(--purliv);
+  height: 111px;
+  margin-top: -2em;
+  border-bottom: 0.5em solid var(--hamsickred);
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+}
+
+.logo:first-of-type {
+  left: 0;
+}
+
+.logo:last-of-type {
+  right: 0;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 1.2em;
+  top: 0;
+}
+
+/* Main H1
+************************************/
+#links h1 {
+  font-size: 3em;
+}
+#links {
+  display: block;
+}
+#links img {
+  height: 200px;
+  width: 200px;
+}
+#links p {
+  font-family: "Comic Sans MS";
+  font-size: 2em;
+}
+#links a {
+  display: block;
+  color: var(--yeliv);
+  padding-top: 5px;
+  border-bottom: 5px solid var(--yeliv);
+}
+#links a:hover {
+  background-color: var(--yeliv);
+  color: var(--purliv);
+}
+
+.red {
+  color: var(--hamsickred);
+  font-style: italic;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
