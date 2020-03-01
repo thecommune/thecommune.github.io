@@ -6,6 +6,20 @@
 	--hamsickred: #d22630;
 }
 
+/*@media (prefers-color-scheme: light) {
+	:root {
+		--yeliv: #000;
+		--purliv: #fff;
+	}
+}*/
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--yeliv: #000;
+		--purliv: #555;
+	}
+}
+
 body {
 	background-color: var(--purliv);
 	color: var(--yeliv);
@@ -69,6 +83,12 @@ header h1 {
 	font-size: 2em;
 }
 
+@media (prefers-color-scheme: dark) {
+	header h1 {
+		color: var(--hamsickred);
+	}
+}
+
 @media(min-width: 40rem) {
 	.logo {
 		top: 0;
@@ -107,11 +127,11 @@ footer p {
 	color: var(--yeliv);
 	padding-top: 5px;
 	border-bottom: 5px solid var(--yeliv);
+	border-right: 5px solid var(--yeliv);
 }
 
 #links a:hover {
-	background-color: var(--yeliv);
-	color: var(--purliv);
+	background-color: var(--hamsickred);
 }
 
 .red {
@@ -153,7 +173,7 @@ footer p {
 
 	#links a:first-of-type {
 		grid-area: 1 / 1 / 2 / 3;
-		border-right: 5px solid var(--yeliv);
+		border-left: 5px solid var(--yeliv);
 	}
 
 	#links a:last-of-type {
@@ -165,7 +185,6 @@ footer p {
 		color: var(--yeliv);
 		padding-top: 10px;
 		padding-bottom: 10px;
-		border-bottom: 5px solid var(--yeliv);
 	}
 
 }
