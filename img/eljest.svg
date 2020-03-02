@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+	<style>
+		.construction{
+		fill: transparent;
+		stroke: none;
+		stroke-width: 0.05;
+		}
+		.member{
+		fill: #D30E98;
+		}
+	</style>
+	<g>
+		<!--Outline all the coordinates of the points that define the boundary of the top of the E shape -->
+		<!--this part is totally optional and is just for descriptive purposes -->
+		<circle class="construction" cx="43" cy="54" r="1"> </circle>
+		<circle class="construction" cx="43" cy="45" r="1"/>
+		<circle class="construction" cx="30" cy="32" r="1"/>
+		<circle class="construction" cx="30" cy="31" r="1"/>
+		<circle class="construction" cx="52" cy="9" r="1"/>
+		<circle class="construction" cx="52" cy="0" r="1"/>
+		<circle class="construction" cx="44" cy="0" r="1"/>
+		<circle class="construction" cx="17" cy="27" r="1"/>
+		<circle class="construction" cx="17" cy="36" r="1"/>
+		<circle class="construction" cx="34" cy="54" r="1"/>
+		<!-- make a path element defined by each boundary point-->
+		<!-- this is literally playing connect the dots lol -->
+		<path class="member" 
+			d=" M 43 54
+				L 43 45
+				L 30 32
+				L 30 31
+				L 52 9
+				L 52 0
+				L 44 0
+				L 17 27
+				L 17 36
+				L 34 54"/>
+		
+		<!--J part-->
+		<circle class="construction" cx="12" cy="59" r="1"/>
+		<circle class="construction" cx="0" cy="70" r="1"/>
+		<circle class="construction" cx="0" cy="84" r="1"/>
+		<circle class="construction" cx="16" cy="100" r="1"/>
+		<circle class="construction" cx="35" cy="100" r="1"/>
+		<circle class="construction" cx="80" cy="54" r="1"/>
+		<circle class="construction" cx="80" cy="45" r="1"/>
+		<circle class="construction" cx="62" cy="27" r="1"/>
+		<circle class="construction" cx="53" cy="27" r="1"/>
+		<circle class="construction" cx="53" cy="36" r="1"/>
+		<circle class="construction" cx="66" cy="49" r="1"/>
+		<circle class="construction" cx="66" cy="50" r="1"/>
+		<circle class="construction" cx="30" cy="86" r="1"/>
+		<circle class="construction" cx="21" cy="86" r="1"/>
+		<circle class="construction" cx="14" cy="79" r="1"/>
+		<circle class="construction" cx="14" cy="75" r="1"/>
+		<circle class="construction" cx="21" cy="68" r="1"/>
+		<circle class="construction" cx="12" cy="59" r="1"/>
+
+		<path class="member" 
+			d=" M 12 59
+				L 0 70
+				L 0 84
+				L 16 100
+				L 35 100
+				L 80 54
+				L 80 45
+				L 62 27
+				L 53 27
+				L 53 36
+				L 66 49
+				L 66 50
+				L 30 86
+				L 21 86
+				L 14 79
+				L 14 75
+				L 21 68
+				L 12 59"/>
+		
+		<!-- J dot -->
+		<circle class="construction" cx="84" cy="36" r="1"/>
+		<circle class="construction" cx="80" cy="32" r="1"/>
+		<circle class="construction" cx="80" cy="23" r="1"/>
+		<circle class="construction" cx="84" cy="18" r="1"/>
+		<circle class="construction" cx="94" cy="18" r="1"/>
+		<circle class="construction" cx="98" cy="23" r="1"/>
+		<circle class="construction" cx="98" cy="32" r="1"/>
+		<circle class="construction" cx="94" cy="36" r="1"/>
+		<circle class="construction" cx="81" cy="36" r="1"/>
+		
+		<path class="member" 
+			d=" M 84 36
+				L 80 32
+				L 80 23
+				L 84 18
+				L 94 18
+				L 98 23
+				L 98 32
+				L 94 36
+				L 81 36"/>
+		
+		
+	</g>
+</svg>
