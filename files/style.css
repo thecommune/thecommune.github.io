@@ -4,6 +4,12 @@
 	--purliv: #d30e98;
 	--hamsickred: #d22630;
 }
+@media (prefers-color-scheme: dark) {
+	:root {
+		--yeliv: #000;
+		--purliv: #555;
+	}
+}
 body {
 	background-color: var(--purliv);
 	color: var(--yeliv);
