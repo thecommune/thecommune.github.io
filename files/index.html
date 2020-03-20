@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>  
+	    <title>  
+	        The Commune's Resourcepacks 
+	    </title> 
+	      
+	    <script src= 
+	"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> 
+	    </script> 
+	</head>  
+	<body>
+		<table>
+		  <tbody>
+		    <tr>
+		      <th>Version</th>
+		      <th>File</th>
+		    </tr>
+		  <tbody>
+		</table>
+	      
+	    <script> 
+	    	$.ajax({
+	          url: 'resourcepacks.json',
+	          type: 'GET',
+	          dataType: 'json',
+	          success: function() { alert('hello!'); },
+	          error: function() { alert('boo!'); },
+	          beforeSend: setHeader
+	        });
+			function setHeader(xhr) {
+				xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
+			}
+	        
+	        var tr;
+			for (var i = 0; i < list.length; i++) {
+			  tr = $('<tr/>');
+			  tr.append("<td>" + list[i][0] + "</td>");
+			  tr.append("<td>" + "<a href=\"" + list[i][1] + "\">" + list[i][1].replace("resourcepack/", "").replace("_"," ") +"</a>" + "</td>");
+			  $('table').append(tr);
+			}       
+	    </script>  
+	</body>
+</html>

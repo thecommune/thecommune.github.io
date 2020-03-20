@@ -50,28 +50,45 @@ span {
   border: 5px solid #0f4873;
   border-radius: 50%;
 }
+.tls-goback {
+  background-color: #fff;
+  border: 5px solid #fff;
+  color: black;
+  border-radius: 50%;
+}
 div[class^="mtl-"] {
   display: flex;
   flex-direction: column;
   z-index: 1;
 }
 div[class^="mtl-"] p {
+  display: none;
+}
+div[class^="mtl-"] p {
   color: #fff;
   position: absolute;
-  margin-left: 4em;
+  margin-left: 3.5em;
   margin-top: -0.01em;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
+}
+div[class^="mtl-"] a {
+  color: #fff;
+  position: absolute;
+  margin-left: 0em;
+  margin-top: -0.01em;
+  text-align: center;
+  font-size: 1.15em;
 }
 .mtl-yl p {
-  margin-left: 4.5em !important;
+  margin-left: 3.7em !important;
 }
 .mtl-gl p {
-  margin-left: 4.4em !important;
+  margin-left: 3.6em !important;
 }
 
 .mtl-tl p {
-  margin-left: 5em !important;
+  margin-left: 4.5em !important;
 }
 
 .sidebar {
@@ -79,16 +96,73 @@ div[class^="mtl-"] p {
   position: absolute;
   left: 0;
   top: 0;
-  height: 100%;
-  width: 16em;
+  height: 13vh;
+  width: 100vw;
   background-color: #222;
 }
 
+.tls h1 {
+  margin-top: .5em;
+  margin-bottom: 1em;
+  margin-left: .5em;
+}
+
 .dot {
-  padding: 1em 1.4em;
+  padding: .1em .5em;
   border-radius: 50%;
   max-width: 0.5em;
   margin-bottom: 1em;
+}
+
+@media(min-width:60rem) {
+  div[class^="mtl-"] {
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+  }
+  div[class^="mtl-"] p {
+    display: block;
+  }
+  div[class^="mtl-"] a {
+    margin-left: 0em;
+    margin-top: 2em;
+    font-size: 1em;
+  }
+  div[class^="mtl-"] a:hover {
+    font-size: 1em;
+  }
+  
+  .sidebar {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 130%;
+    width: 16em;
+    background-color: #222;
+  }
+  
+  .dot {
+    padding: 1em 1.4em;
+    border-radius: 50%;
+    max-width: 0.5em;
+    margin-bottom: 1em;
+  }
+  div[class^="mtl-"] p {
+    font-size: 1.5em;
+    margin-left: 4em;
+  }
+  .mtl-yl p {
+    margin-left: 4.5em !important;
+  }
+  .mtl-gl p {
+    margin-left: 4.4em !important;
+  }
+  
+  .mtl-tl p {
+    margin-left: 5em !important;
+  }
 }
 
 /* Station System
