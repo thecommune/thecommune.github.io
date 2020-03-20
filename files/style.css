@@ -6,7 +6,7 @@
 }
 @media (prefers-color-scheme: dark) {
 	:root {
-		--yeliv: #d22630;
+		--yeliv: #000;
 		--purliv: #555;
 	}
 }
