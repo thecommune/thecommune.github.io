@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
+:root {
+	--yeliv: #fc0;
+	--purliv: #d30e98;
+	--hamsickred: #d22630;
+}
+body {
+	background-color: var(--purliv);
+	color: var(--yeliv);
+	font-family: "Raleway", sans-serif;
+	margin: 0;
+	text-align: center;
+}
+ul {
+	list-style: none
+}
+ul li {
+	margin-left: -2em;
+	margin-bottom: .5em;
+	font-size: 1.5em;
+}
+a {
+	color: var(--yeliv);
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: .25em solid var(--purliv)
+}
+a:hover {
+	border-bottom: .25em solid var(--yeliv)
+}
+.curVer {
+	font-size: 1.5em;
+}
+.goBack {
+	position: absolute;
+	font-size: 1.5em;
+	left: 1em;
+}
