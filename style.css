@@ -96,7 +96,7 @@ header h1 {
 	}
 }
 
-@media(min-width: 53rem) {
+@media(min-width: 73rem) {
 	.logo {
 		top: 0;
 		width: 99px;
@@ -197,7 +197,7 @@ footer p {
 	-webkit-text-stroke-color: black;
 }
 
-@media(min-width:53rem) {
+@media(min-width:73rem) {
 	#links h1 {
 		font-size: 3em;
 	}

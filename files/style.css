@@ -42,3 +42,31 @@ a:hover {
 	font-size: 1.5em;
 	left: 1em;
 }
+.changelog {
+	text-align: center;
+}
+.changelog h1 {
+}
+.oldVer {
+	text-align: center;
+}
+.oldVer h1 {
+}
+@media(min-width: 73rem) {
+	.changelog {
+		text-align: left;
+		margin-left: 2em;
+		max-width: 500px;
+	}
+	.changelog h1 {
+		margin-left: 2em;
+	}
+	.oldVer {
+		text-align: right;
+		margin-top: -67em;
+		margin-right: 10em;
+	}
+	.oldVer h1 {
+		margin-right: 1.5em;
+	}
+}
