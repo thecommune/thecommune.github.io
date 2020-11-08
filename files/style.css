@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900");
 :root {
-	--yeliv: #fc0;
-	--purliv: #d30e98;
+	--yeliv: #111;
+	--purliv: #ddd;
 	--hamsickred: #d22630;
 }
 @media (prefers-color-scheme: dark) {
