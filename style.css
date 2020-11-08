@@ -16,8 +16,8 @@
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--yeliv: #000;
-		--purliv: #555;
+		--yeliv: #aaa;
+		--purliv: #111;
 	}
 }
 
@@ -125,7 +125,7 @@ header h1 {
 	}
 
 	li a {
-		color: white;
+		color: var(--hamsickred);
 		font-size: 20px;
 		z-index: 5;
 	}
@@ -137,7 +137,7 @@ header h1 {
 	.btn {
 	  background-color: var(--hamsickred);
 	  border: none;
-	  color: white;
+	  color: var(--yeliv);
 	  padding: 5px 10px;
 	  width: 300px;
 	  cursor: pointer;
