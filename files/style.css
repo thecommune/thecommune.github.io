@@ -55,16 +55,14 @@ a:hover {
 @media(min-width: 73rem) {
 	.changelog {
 		text-align: left;
-		margin-left: 2em;
-		max-width: 500px;
+		position: absolute;
 	}
 	.changelog h1 {
 		margin-left: 2em;
 	}
 	.oldVer {
 		text-align: right;
-		margin-top: -67em;
-		margin-right: 10em;
+		position: absolute;
 	}
 	.oldVer h1 {
 		margin-right: 1.5em;
